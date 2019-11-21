@@ -162,6 +162,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 //Procedura obsługi wiadomości dla okna informacji o programie.
 INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 {
+  //here
     UNREFERENCED_PARAMETER(lParam);
     switch (message)
     {
